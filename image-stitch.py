@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 This Program stitches two images based on user input correspondences
 Author: Tony Joseph
@@ -99,10 +100,10 @@ def getImageStitch(image1, image2, points1, points2, syfail):
         #print h1
 
         # Stitch Image with prespective geometry:
-        stitched_image = cv2.warpPerspective(image2, H, (image1.shape[1] + image2.shape[1], image1.shape[0]))
-        stitched_image[0:image2.shape[0], 0:image2.shape[1]] = image1
+        stitch_image = cv2.warpPerspective(image2, H, (image1.shape[1] + image2.shape[1], image1.shape[0]))
+        stitch_image[0:image2.shape[0], 0:image2.shape[1]] = image1
 
-    return (stitched_image)
+    return (stitch_image)
 
 
 '''
