@@ -4,5 +4,5 @@
 
 
 
-![alt tag](https://github.com/CVDLBOT/Manual_Homography/master/Test2.png)
+![ScreenShot](https://github.com/CVDLBOT/Manual_Homography/master/Test2.png)
 
