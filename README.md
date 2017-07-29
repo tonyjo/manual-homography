@@ -1,6 +1,6 @@
 # Manual Homography
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]() 
-[![PyPI](https://img.shields.io/badge/python-2.7-blue.svg])]()
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
 
 ### Python File, to stitch two images by manually selecting correspondences. Then the Homography is computed and images are stitched together.
 
